@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teg INPUT</title>
+  </head>
+  <body>
+    <form name="test" method="post" action="input.php">
+      <p>
+        <b placeholder="Max Mustermann">Ihr Username</b><br />
+        <input type="text" size="40" />
+      </p>
+      <p><b>Welchen Browser nutzen Sie hauptsächlich:</b><br>
+        <input type="radio" name="browser" value="ie">Internet Explorer<br>
+        <input type="radio" name="browser" value="opera">Opera<br>
+        <input type="radio" name="browser" value="firefox">Firefox<br>
+        <input type="radio" name="browser" value="andere">andere<br>
+      </p>
+      <p>Wenn es nicht in der Liste steht, welches genau?<br>
+        <textarea name="content" maxlength="40" placeholder="Name des Browsers"></textarea>
+    </p>
+      <p>Kommentar<br>
+      <textarea name="content" cols="40" rows="3" placeholder="Warum nutzen Sie gerade diesen Browser?"></textarea></p>
+      <p><input type="submit" value="Senden">
+        <input type="reset" value="Leeren"></p>
+    </form>
+  </body>
+</html>

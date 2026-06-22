@@ -1,0 +1,18 @@
+header {
+  background: #2980b9;
+  background: linear-gradient(
+    to left,
+    #ffffff,
+    #6dd5fa,
+    #2980b9
+  );
+  padding: 25px;
+  border-bottom: 2px solid gray;
+}
+
+img {
+  height: 250px;
+  border: 2px;
+  border-color: black;
+  border-radius: 10px;
+}

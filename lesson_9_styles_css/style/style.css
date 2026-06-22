@@ -23,7 +23,7 @@ h3 {
   font-family: Arial, "Palatino Linotype", serif;
   border-bottom: 2px solid #ff3412;
   padding-top: 12px;
-  padding-bottom: 4px;
+  padding-bottom: 4px colid #ff3412;
 }
 
 h1 {

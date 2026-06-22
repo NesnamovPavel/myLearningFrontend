@@ -32,12 +32,12 @@ h1 {
 #logo {
   color: rgba(255, 255, 255, 0.8);
   font-size: 2.1em;
-  font-family: Varela, Roboto, Ariail, serif;
+  font-family: Baskerville,  Ariail, sans-serif;
   font-style: italic;
   text-align: center;
   margin-bottom: 36px;
   background-color: rgb(190, 180, 110);
-  border-radius: 0 0 10px 10px;
+  border-radius: 0 0 10px 10px; /*верх левый, верх правый, низ правый, низ левый*/
   padding: 14px;
 }
 

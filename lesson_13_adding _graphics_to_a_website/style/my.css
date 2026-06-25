@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+    /*background: url(../images/fon.jpg) center center / 40% no-repeat fixed #ff5;*/
+    /*background-repeat: no-repeat; блокировка повторения фонового изображения
+
+    background-position: 20px 300px;
+    background-repeat: repeat-x;
+    background-attachment: fixed; прикрепляет изображение
+    background-origin: border-box;  origin прикрепляет в начало border-box границы бокса
+
+    background-size: contain; */
+}
+
+.p-1 {
+    background: url(../images/premium_vector-1.avif);
+}
+
+.p-2 {
+    background: url(../images/premium_vector-2.avif);
+}
+
+.p-3 {
+    background: url(../images/vector-3.avif);
+}
+
+.p-4 {
+    background: url(../images/premium_vector-4.avif);
+}
+
+.p-1, .p-2, .p-3, .p-4 {
+    background-repeat: no-repeat;
+    background-size: contain;
+}
